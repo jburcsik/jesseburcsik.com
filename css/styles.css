@@ -68,11 +68,7 @@ nav ul li a:hover{
 	padding: 	100px 50px 230px 50px; 
 }
 
-#homeblurb {
-	margin: 	0 auto;
-	display: 	block;
-	text-align: center;
-}
+
 
 #homeblurb p{
 	font-size: 	36px;
@@ -101,35 +97,43 @@ nav ul li a:hover{
 	margin-bottom:	10px;			
 }
 
-#resume .personal ul, #resume .skills ul{
-	margin: 	10px 0 10px 0;;
+#resume .list ul{
+	margin: 	10px 0 10px 0;
 }
 
-#resume .personal ul li:first-child, #resume .skills ul li:first-child{
+#resume .list ul li:first-child{
 	border-top: 	1px solid #999; 		
 }
 
-#resume .personal ul li, #resume .skills ul li{
+#resume .list ul li{
 	list-style: 	none;
 	padding:		5px 0;
 	border-bottom: 	1px solid #999; 		
 }
 
-#resume .personal ul li:hover , #resume .skills ul li:hover{
+#resume .list ul li:hover{
 	background: 		#efefef;
 }
 
-#resume .personal ul li strong, #resume .skills ul li strong{
-	width:			150px;
+#resume .list ul li strong{
+	min-width:		130px;
+	padding:		0 20px 0 0;
 	display: 		block;
 	float: 			left;
 }
 
-#resume .skills ul li em{
+#resume .list ul li span{
+	white-space: 	nowrap;
+	min-width:		250px;
+	padding:		0 20px 0 0;
+}
+
+#resume .list ul li em{
 	display: 		block;
 	float: 			left;
 	width:			150px;
 	font-style: 	italic;
+	white-space: 	nowrap;
 }
 
 #resume .skills ul li span{
@@ -137,7 +141,7 @@ nav ul li a:hover{
 }
 
 
-#resume .personal ul li a{
+#resume .list ul li a{
 
 }
 
