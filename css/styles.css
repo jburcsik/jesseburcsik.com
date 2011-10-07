@@ -1,0 +1,216 @@
+/* Customized styles */
+h1 { font-family: ‘Leckerli One’, Arial, serif; font-weight: 400; font-size: 40px;}
+
+/* Header Styles Start */
+
+/* Logo head */
+html, body {
+	height: 	100%;
+}
+
+#container{
+	z-index: 10;
+	position: relative;
+	min-height: 100%;
+}
+
+header {
+	padding: 	15px 0px 20px 20px;
+	background-color: 	#ffffff;
+	border-bottom: 		1px solid #666;
+	min-width: 	610px;
+	height: 	40px;
+	position: 	fixed;
+	width: 	100%;
+	
+	-moz-box-shadow: 0 0 5px 5px #666;
+	-webkit-box-shadow: 0 0 5px 5px#666;
+	box-shadow: 0 0 15px 0px #666;
+	margin:		0 0 20px 0;
+}
+
+header h1 a {
+	display: 	block;
+	padding: 	0 0 0 50px;
+	background: url(../images/jb-minilogo.gif) top left no-repeat;
+	text-decoration: none;
+	color: 		#666666;
+	float: 		left;
+}
+
+/* Main Nav */
+nav {
+	display: 	block;
+	float: 		right;
+	padding: 	10px 0 0 0;
+	margin: 	0 30px 0 0;
+}
+
+nav ul {
+	
+}
+
+nav ul li {
+	float: 	left;
+	padding: 	5px 10px
+}
+
+nav ul li a, nav ul li a:link, nav ul li a:visited{
+	text-decoration: 	none;
+	font-size: 			16px;
+}
+
+nav ul li a:hover{
+}
+
+/* BODY CONTENT */
+#main{
+	padding: 	100px 50px 230px 50px; 
+}
+
+#homeblurb {
+	margin: 	0 auto;
+	display: 	block;
+	text-align: center;
+}
+
+#homeblurb p{
+	font-size: 	36px;
+}
+
+/* RESUME STYLES */
+#resume {
+
+}
+
+#resume .resume-section{
+	margin:			0 0 20px 0;
+}
+
+#resume .resume-section p, #resume .resume-section ul{
+	line-height: 	2em;
+	}
+
+#resume h2, #contact h2{
+	font-size: 		36px;
+	margin:			0 0 15px 0;
+}
+
+#resume h3, #contact h3{
+	font-size: 		24px;
+	margin-bottom:	10px;			
+}
+
+#resume .personal ul, #resume .skills ul{
+	margin: 	10px 0 10px 0;;
+}
+
+#resume .personal ul li:first-child, #resume .skills ul li:first-child{
+	border-top: 	1px solid #999; 		
+}
+
+#resume .personal ul li, #resume .skills ul li{
+	list-style: 	none;
+	padding:		5px 0;
+	border-bottom: 	1px solid #999; 		
+}
+
+#resume .personal ul li:hover , #resume .skills ul li:hover{
+	background: 		#efefef;
+}
+
+#resume .personal ul li strong, #resume .skills ul li strong{
+	width:			150px;
+	display: 		block;
+	float: 			left;
+}
+
+#resume .skills ul li em{
+	display: 		block;
+	float: 			left;
+	width:			150px;
+	font-style: 	italic;
+}
+
+#resume .skills ul li span{
+
+}
+
+
+#resume .personal ul li a{
+
+}
+
+#resume .proprofile p{
+}
+
+.experience-item{
+	border-top:	1px solid #999;
+	margin:		0 0 0 30px;
+	padding: 	15px 0;
+}
+
+.experience-item h4{
+	font-size: 		14px;
+	font-weight: 	bold;
+	float: 			left;
+}
+
+.experience-item h4 span{
+	font-size: 		12px;
+	font-weight: 	normal;
+	font-style: 	italic;
+	display: 		block;
+
+}
+
+.experience-item h5{
+	float: 			right;
+	font-size: 		12px;
+	font-weight: 	bold;
+}
+
+.experience-item h5 span{
+	font-size: 		10px;
+	font-weight: 	normal;
+	font-style: 	italic;
+	display: 		block;
+}
+
+.experience-item ul{
+	clear: 		both;
+	padding: 	10px 0;
+}
+
+#contact .gmail{
+
+}
+
+#contact .linkedin{
+
+}
+
+#contact .skype{
+
+}
+
+#contact .facebook{
+
+}
+
+#contact .twitter{
+
+}
+
+/* FOOTER  */
+
+footer{
+	display: 	block;
+	width:		307px;
+	height: 	209px;
+	background: url(../images/jb-melonsmall.jpg) bottom right	no-repeat;
+	position: 	absolute;
+	bottom:		0px;
+	right:		0px;
+	z-index: 	0;
+}
